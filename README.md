@@ -15,6 +15,7 @@ Software and Libraries used in the project is followed as:
 3. Raspbian OS
 
 ############REMOTE CONTROL############
+
 With help from Python, we will be able to control our vehicle with the help of the keyboard.
 
 In this module, I have basically created a remote control setup for the model. It contains a motor module, a keyboard module, and a final drive.
@@ -24,13 +25,17 @@ In this module, I have basically created a remote control setup for the model. I
 2# In this keyboard module, I can give input from a keyboard and send it to our car. I have made the keyboard code modular, which means it will be a separate file that will send signals to our main robot code.
 
 3# Final test drive, this module in integration of keyboard module and motor module, which will controlled the movement of car.
-0 comments on commit a29c5f8
+
 
 ############LANE DETECTION############
+
 My project is capable of detecting lanes with the help of a Pi camera and OpenCV through the Hough Transform, sending a signal, and taking the turn according to the direction of the curve.
 
+
 ############OBSTACLE AVOIDANCE############
+
 Also, with the help of an ultrasonic sensor, we are detecting objects coming in front of us and giving the command to stop the vehicles whenever a 15-cm-long object is detected by the sensor and the vehicles stop.
+
 
 This is the first part of the project; I further plan to improve it to project more by:
 1. Improving obstacle avoidance code
