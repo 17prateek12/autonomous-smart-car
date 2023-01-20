@@ -1,7 +1,0 @@
-In this module, I have basically created a remote control setup for the model. It contains a motor module, a keyboard module, and a final drive.
-
-1# Motor module has set of command which define the direction for cars to take turn, and  speed for motors control.
-
-2# In this keyboard module, I can give input from a keyboard and send it to our car. I have made the keyboard code modular, which means it will be a separate file that will send signals to our main robot code.
-
-3# Final test drive, this module in integration of keyboard module and motor module, which will controlled the movement of car.
