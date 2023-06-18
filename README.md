@@ -8,6 +8,7 @@ Hardware component used in the project is followed as:
 3. pi cam
 4. ultrasonic sensor
 5. robot chassis
+6. Neo 6m gps module
 
 Software and Libraries used in the project is followed as:
 1. Open Cv
@@ -29,16 +30,16 @@ In this module, I have basically created a remote control setup for the model. I
 
 ############LANE DETECTION############
 
-My project is capable of detecting lanes with the help of a Pi camera and OpenCV through the Hough Transform, sending a signal, and taking the turn according to the direction of the curve.
+My project is capable of detecting lanes with the help of a Pi camera and OpenCV through the Hough Transform, CNN, sending a signal, and taking the turn according to the direction of the curve. This part is basically a comparison between hough transform and CNN accuracy. 
 
 
 ############OBSTACLE AVOIDANCE############
 
-Also, with the help of an ultrasonic sensor, we are detecting objects coming in front of us and giving the command to stop the vehicles whenever a 15-cm-long object is detected by the sensor and the vehicles stop.
+Also, with the help of an ultrasonic sensor, we are detecting objects coming in front of us and giving the command to stop the vehicles whenever a 15-cm-long object is detected by the sensor and the vehicles stop and take turn accordingly.
+
+############GPS############
+Use neo 6m gps module with raspberry pi to track the live location of car.
+![image](https://github.com/17prateek12/autonomous-smart-car/assets/88935432/b58ff676-1171-4f76-b2fd-c463c4fecd4c)
 
 
-This is the first part of the project; I further plan to improve it to project more by:
-1. Improving obstacle avoidance code
-2. Integrating and gsp module to track the car and its safety.
-3. Try to apply CNN for lane detection
-4. traffic light responding
+
