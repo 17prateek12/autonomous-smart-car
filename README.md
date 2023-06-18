@@ -46,7 +46,7 @@ block diagram
 working model of car
 
 ![image](https://github.com/17prateek12/autonomous-smart-car/assets/88935432/eac09cf7-045a-43e3-b5f8-cf84d8d52e62)
-finaal circuit diagram
+final circuit diagram
 
 #########COMPARISON BETWEEN HOUGH TRANSFORM AND CNN##########
 The results of both algorithms in the following cases have been shown in the given table. The result has been given by pass or fail, and accuracy has been found on the basis of the number of pass cases versus the total number of cases.
